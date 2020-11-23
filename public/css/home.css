@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Mitr:wght@500&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+}
+body {
+  margin: 0px;
+  background: rgb(50, 50, 50);
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Mitr", sans-serif;
+}
+h1 {
+  font-size: 70px;
+}
+h2 {
+  font-size: 40px;
+}
+h3 {
+  font-size: 40px;
+}
+h4 {
+  font-size: 30px;
+}
+#banner {
+  margin: 0px;
+  padding: 5% 25%;
+  text-align: center;
+  background: rgb(71, 41, 107);
+  background: linear-gradient(
+      0deg,
+      rgba(95, 72, 212, 0.5) 0%,
+      rgba(81, 96, 246, 0.5) 100%
+    ),
+    url("../img/background2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+a {
+  color: rgb(163, 94, 247);
+}
+@media (min-width: 600px) {
+  p {
+    font-size: 1.25rem;
+  }
+  a {
+    font-size: 0.8rem;
+  }
+  i {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.3rem;
+  }
+  p {
+    font-size: 0.8rem;
+  }
+  a {
+    font-size: 0.5rem;
+  }
+  i {
+    font-size: 0.5rem;
+  }
+  #banner {
+    padding: 5% 10%;
+  }
+}
+html,
+body {
+  height: 100%;
+}
+
+#sticky-footer {
+  background-color: #47296B;
+  flex-shrink: none;
+}

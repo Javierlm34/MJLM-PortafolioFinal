@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Mitr:wght@500&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+}
+body {
+  margin: 0px;
+  background: white
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Mitr", sans-serif;
+}
+h1 {
+  font-size: 70px;
+}
+h2 {
+  font-size: 40px;
+}
+h3 {
+  font-size: 40px;
+}
+h4 {
+  font-size: 30px;
+}
+#banner {
+  margin: 0px;
+  padding: 5% 15%;
+  text-align: center;
+  background: rgb(71, 41, 107);
+  background: linear-gradient(
+      0deg,
+      rgba(95, 72, 212, 0.5) 0%,
+      rgba(81, 96, 246, 0.5) 100%
+    ),
+    url("../img/background2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+a {
+  color: rgb(163, 94, 247);
+}
+input[type="submit"] {
+  background-color: #8A4FD1; 
+  border-color: #A35EF7;
+  color:white;
+  border-radius: 50px;
+  width: 100%;
+  padding: 5px;
+  border: none;
+  margin: 20px 0px;
+}
+label {
+  color: white;
+  display: block;
+  line-height: 30px;
+}
+textarea,
+input[type="email"],
+input[type="text"],
+input[type="readio"],
+select {
+  width: 100%;
+}
+#contact-form {
+  margin: 0px auto;
+  text-align: justify;
+  background-color: #47296B;
+  color: white;
+  border-radius: 10px;
+  padding: 30px;
+}
+#contact-form h4 {
+  text-align: center;
+}
+
+#contactos {
+  margin: 0px auto;
+  text-align: justify;
+  background-color: #47296B;;
+  color: white;
+  border-radius: 10px;
+  padding: 30px;
+}
+#contactos h4 {
+  text-align: center;
+}
+#contactos {
+  font-size: 10px;
+  text-align: center;
+}
+.clear {
+  clear: both;
+}
+#contact-form label {
+  padding: 2% 0px;
+}
+
+#tipoPersona {
+  text-align: center;
+}
+#col1 {
+  padding: 20px 40px;
+}
+
+#col2 {
+  padding: 20px 40px;
+}
+@media (min-width: 600px) {
+  p {
+    font-size: 1.25rem;
+  }
+  a {
+    font-size: 0.8rem;
+  }
+  i {
+    font-size: 0.8rem;
+  }
+  #contactos {
+    font-size: 0.8rem;
+  }
+  #banner {
+    padding: 5% 10%;
+  }
+}
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.3rem;
+  }
+  p {
+    font-size: 0.8rem;
+  }
+  a {
+    font-size: 0.5rem;
+  }
+  i {
+    font-size: 0.5rem;
+  }
+  #contact-form {
+    padding: 20px;
+  }
+  #main {
+    padding: 5% 0%;
+  }
+  #contactos {
+    font-size: 0.5rem;
+  }
+  #banner {
+    padding: 5% 0%;
+  }
+}
+html,
+body {
+  height: 100%;
+}
+
+#sticky-footer {
+  background-color: #47296B;
+  flex-shrink: none;
+}
+
+
+#mapa {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+#mapa::after {
+  padding-top: 50.5%;
+  display: block;
+  content: "";
+}
+
+#mapa iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
